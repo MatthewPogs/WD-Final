@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/564x/74/a2/b0/74a2b0740cc1567284f0c9a2b2c7bad3.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    animation: backgroundShift 10s infinite alternate ease-in-out;
+}
+
+@keyframes backgroundShift {
+    0% {
+        background-position: center top;
+    }
+    50% {
+        background-position: center center;
+    }
+    100% {
+        background-position: center bottom;
+    }
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.home-link {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    background: linear-gradient(45deg, dodgerblue, deepskyblue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.home-link:hover {
+    background: linear-gradient(45deg, gray, darkgray);
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about h1 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.about .about-highlight {
+    color: dodgerblue;
+    font-size: 1.2em;
+    transition: transform 0.3s ease-in-out;
+    animation: textHighlight 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes textHighlight {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-image {
+    flex: 0 0 45%;
+    margin-right: 20px;
+}
+
+.profile-image img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+}
+
+.profile-info {
+    flex: 1;
+    max-width: 55%;
+    margin-top: 20px;
+}
+
+.profile-info h2 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.profile-info .name-highlight {
+    color: dodgerblue;
+    transition: transform 0.3s ease-in-out;
+    animation: textHighlight 1.5s ease-in-out infinite alternate-reverse;
+}
+
+.profile-info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 20px 0;
+    transition: color 0.3s ease;
+}
+
+.profile-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-info ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.profile-info ul li strong {
+    font-weight: bold;
+}
+
+.profile-info .profile-heading {
+    color: dodgerblue;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 80px;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-image, .profile-info {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .profile-info {
+        margin-top: 0;
+    }
+}

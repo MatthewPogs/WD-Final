@@ -9,18 +9,18 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Final</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Creating a Personal  Website that  Showcase the Design and Functionality
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=MatthewPogs/WD-Final)
 
 ---
 
@@ -69,14 +69,13 @@ Guiding Question:
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -90,7 +89,7 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Final
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -99,7 +98,34 @@ WD-ProjectName
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ About
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
+└─ Contacts
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
+└─ Projects
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
+└─ Services
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
@@ -117,4 +143,12 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Profile Image | The sample purpose of the profile image in the HTML is to provide a visual representation of the user or individual associated with the profile. | https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/449889470_894326215839003_3987454227468655365_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_ohc=VNMvT33TNPoQ7kNvgH0UmgH&_nc_ht=scontent.fmnl25-1.fna&cb_e2o_trans=q&oh=03_Q7cD1QHoMFo1vExX5jPVE_H_QyF5ioVPLBOQaztjjaFiTd0rJw&oe=66BBE751 |
+|GIF Background Image | The purpose of using a GIF image in the CSS as a background image is to enhance the visual appeal and interactivity of the website or application. | https://i.pinimg.com/originals/d6/09/80/d60980cd1c030e1d016fc43b34ca0300.gif |
+|Header Image | The purpose of the header image in the CSS is to visually enhance the website and create a visually appealing first impression for the users. | https://t3.ftcdn.net/jpg/03/17/64/64/360_F_317646469_uX7wZmFPJTWNIX0tICakL2fDrj9IIdT3.jpg |
+|Profile Image 2 | The sample purpose of the profile image in the HTML is to provide a visual representation of the user or individual associated with the profile. | https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.15752-9/450472459_1509517206658126_2076014193671057599_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_ohc=yaPtZkYegv0Q7kNvgEvkZwO&_nc_ht=scontent.fmnl25-4.fna&cb_e2o_trans=q&oh=03_Q7cD1QHPBit6-jy7wVi04gmDZ6YuU2BMhe7SafaxrjXB2SGeyw&oe=66BC07B5 |
+|Background Image | The sample purpose of a background image in CSS is to enhance the visual appeal of a website or web application. | https://cdn.wallpapersafari.com/73/33/P9b2gR.jpg |
+|Header Image | The purpose of the header image in the CSS is to visually enhance the website and create a visually appealing first impression for the users. | https://i.pinimg.com/564x/04/2a/11/042a1150c3b98101a68f4c82bd0cddab.jpg |
+|3 Icon Logo Image | The sample purpose of the icon logo image in the HTML is to visually represent the brand or identity of the website or application. | https://i.pinimg.com/564x/74/a2/b0/74a2b0740cc1567284f0c9a2b2c7bad3.jpg |
+|Background Image 2 | The sample purpose of a background image in CSS is to enhance the visual appeal of a website or web application. | https://i.pinimg.com/564x/b0/8e/93/b08e933776039c7fb94228bdf8907e1f.jpg |
+
